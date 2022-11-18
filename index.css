@@ -18,7 +18,7 @@ li{
 .right{
     width: 100%;
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+   
 }
 .item{
     width: 100%;
@@ -59,10 +59,10 @@ button{
 .hover{
     height: 42px;
 }
-img{
+.logo{
     width: 310px;
-height: 122px;
-margin:18px 0px;
+height: 105px;
+margin:6px 0px;
 }
 .image{
     display: flex;
@@ -70,22 +70,64 @@ margin:18px 0px;
 
 }
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 .dong2{
     background-color: #EFEFEF;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 19px;
     align-items: center;
     text-align: center;
     color: #000000;
-    padding: 17px 144px;
-    margin: 20px 0px;
-    height: 146px;
+    padding: 33px 122px;
+    margin: 30px 0px;
 }
 b{
     line-height: 29px;
+}
+.cot1{
+    width: 300px;
+    
+}
+.cot2{
+    width: 300px;
+    margin: 0px 34px;
+}
+.imgcol1{
+    float: left;
+    width: 87px;
+    padding-right: 11px;
+}
+.textcol1{
+    font-size: 11px;
+}
+.dong3{
+    display: flex;
+    margin-bottom: 110px;
+}
+.footer{
+    width: 80%;
+    color: #3E3E3E;
+    padding: 20px 0px;
+    margin:0 auto;
+}
+@media screen and (max-width: 614px) {
+    .dong3{
+        display: block;
+    }  
+    .cot2{
+        width: 300px;
+    margin: 20px 0px;
+    }
+    .dong2{
+        padding: 33px 54px;
+    }
+}
+@media screen and (max-width: 572px) {
+.logo{
+    width: 95%;
+}
 }
