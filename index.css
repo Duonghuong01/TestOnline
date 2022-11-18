@@ -109,7 +109,7 @@ b{
     margin-bottom: 110px;
 }
 .footer{
-    width: 80%;
+    width: 85%;
     color: #3E3E3E;
     padding: 20px 0px;
     margin:0 auto;
@@ -120,6 +120,7 @@ b{
 .left1{
     display: none;
 }
+
 @media screen and (max-width: 665px) {
     .dong3{
         display: block;
@@ -143,6 +144,10 @@ b{
     }
     .left1{
         display: block;
+    }
+  
+    #myModal{
+        display: none;
     }
 }
 @media screen and (max-width: 572px) {
